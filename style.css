@@ -1,0 +1,646 @@
+ .logo{
+    color: rgb(223, 247, 247);
+    font-family: Arial;
+    font-size: 20px;
+ }
+ body {
+    display: block;
+    margin: 2px;
+ }
+ 
+ 
+ 
+ .banner {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+.banner {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%,);
+    background-image: url("nswana19.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+ 
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+ul li{
+    list-style: none;
+    margin-left: 120px;
+    margin-bottom: 110px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(223, 247, 247);
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+    color: rgb(238, 196, 11);
+
+}
+
+.banner-text h2{
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(223, 247, 247);
+    padding-right: 20px;
+    margin-top: 9%;
+    margin-bottom: 50px;
+}
+
+.banner-text-desc {
+    color: rgb(223, 247, 247);
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: Arial ;
+    margin-left: 70px;
+    margin-right: 50px;
+
+}
+.banner-text-desc, .nws-title {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nws-title{
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+}
+.news {
+    background-color: rgb(224, 234, 243);
+
+}
+.nws-title-desc{
+    font-size: 25px;
+    font-family: Arial ;
+}
+ 
+.news-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;  
+}
+
+
+.news-card {
+    margin-bottom: 20px;
+}
+
+.news-title {
+    text-align: center;
+}
+
+.banner-buttons {
+    text-align: center;
+  }
+  
+  .banner-buttons a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .banner-buttons a.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .banner-buttons a.btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+
+ /* Create a flex container to hold the news cards and allow them to wrap */
+ .news-row-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style for each news card */
+.news-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+*{
+    box-sizing:border-box;
+}
+
+
+/* Style for images inside news cards */
+.news-card img {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: auto;
+}
+ 
+
+/* Style for news titles */
+.news-title {
+    margin-top: 20px;
+}
+
+/* Style for the news titles' headings */
+.news-title h3 {
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* Style for the news descriptions */
+.news-title-desc {
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+/* Style for buttons (Read More) */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+ 
+
+
+/* Style the section */
+.why-verb {
+    background-color: #23554d;
+    padding: 40px;
+    margin: 1px;
+}
+  
+
+/* Style the title */
+.wvb-title {
+    color: #080707;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+
+/* Style the lead text */
+.lead {
+    font-size: 20px;
+    color: #030303;
+    font-family: Arial ;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+/* Style the card containers */
+.wvb-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     
+}
+
+/* Style each card */
+.vb-card-reason {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
+    background-color: #e0d4d4;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Style the card icon */
+.fa-star {
+    color: #ffcc00;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Style the card title */
+.vb-card-reason h5 {
+    font-size: 25px;
+    color: #080707;
+    font-family: Arial ;
+    font-weight: bold;
+}
+
+/* Style the card text */
+.vb-card-reason p {
+    font-size: 15px;
+    color: #080707;
+    font-family: Arial ;
+}
+.vtb-slide img {
+    width: 400px; /* You can adjust the width to your preference */
+    height: 300px; /* You can adjust the height to your preference */
+}
+
+
+
+
+
+
+/* Style the section */
+#suggestions {
+    background-color: #e7d2d2;
+    padding: 20px;
+}
+
+/* Style the container for the content */
+.vtb-sect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the text content */
+.vb-text {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style the title */
+.vtb-title {
+    font-size: 35px;
+    color: #080707;
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* Style each suggestion point */
+.point {
+    margin-bottom: 20px;
+}
+
+/* Style the point number */
+.count {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Style the point title */
+.point-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #080707;
+    margin-top: 10px;
+    font-family: Arial ;
+}
+
+/* Style the point description */
+.point-desc {
+    font-size: 17px;
+    color:#080707;
+    font-family: Arial ;
+}
+
+/* Style the image */
+.vtb-slide img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style the section container */
+.services {
+    background-color: #8f4848;
+    padding: 50px 0;
+}
+
+/* Style the section title */
+.vss-title {
+    font-size: 40px;
+    color: #080707;
+    text-align: center;
+    font-family: Arial ;
+    font-weight: bold;
+}
+
+/* Style the section description */
+.vss-title-desc {
+    font-size: 20px;
+    color: #080707;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial ;
+}
+
+/* Style the service cards */
+.vb-card-service {
+    background-color: #e7d2d2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Style the service icons */
+.icons {
+    color: #2c3947; /* Blue color for icons */
+}
+
+/* Style the service title */
+.service-title {
+    font-size: 25px;
+    color: #080707;
+    margin-top: 10px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* Style the service description */
+.service-desc {
+    font-size: 16px;
+    color: #080707;
+    font-family: Arial ;
+    font-weight: lighter;
+}
+
+/* Style the "Cast Your Ballot" button */
+.btn-primary {
+    background-color: #0c5a68;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+ .cd-projects-desc{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: lighter;
+ }
+
+
+
+
+
+
+ 
+
+/* Styling for the overall page container */
+.container {
+    padding: 20px;
+}
+
+/* Styling for review cards */
+.rev-card {
+    background-color: #d1bbbb;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Styling for review card titles */
+.rev-title {
+    font-size: 35px;
+    font-family: Arial ;
+    font-weight: bold;
+}
+
+/* Styling for review card descriptions */
+.rev-desc {
+    font-size: 18px;
+    font-family: Arial;
+
+}
+
+/* Styling for the bridge section title */
+.brg-title {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 20px;
+    font-family: Arial;
+    font-weight: lighter ;
+}
+
+/* Styling for social media icons in the connect-media section */
+.connect-media a {
+    font-size: 24px;
+    margin: 10px;
+    text-decoration: none;
+    color: #f7f2f2;
+}
+
+
+
+
+
+/* Style the section container */
+.locations {
+    background-color: #939b6f;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style the title */
+.indst-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #080707;
+    font-family: Arial ;
+}
+
+/* Style the title description */
+.indst-title-desc {
+    font-size: 20px;
+    color: #080707;
+    margin-bottom: 30px;
+    font-family: Arial ;
+}
+
+/* Style the working cards */
+.wrks-card {
+    background-color: #d8c8c8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.wrks-card i {
+    font-size: 36px;
+    color: #080707;
+    font-family: Arial;
+}
+
+/* Style the working card content */
+.wrks-content h4 {
+    font-size: 25px;
+    color: #080707;
+    font-family: Arial;
+}
+
+.wrks-content p {
+    font-size: 16px;
+    color:#080707;
+    font-family: Arial;
+}
+
+/* Style the form container */
+.form-wrap {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Style form input fields */
+.form-control {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+/* Style the submit button */
+.btn-warning {
+    background-color: #080808;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Add some spacing between form elements */
+.form-control:not(:last-child) {
+    margin-right: 0;
+}
+
+/* Make the form elements responsive for smaller screens */
+@media (max-width: 768px) {
+    .form-wrap {
+        margin-top: 20px;
+    }
+}
+
+
+
+/* Style the footer wrapper */
+.footer-wrapper {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+/* Style the "MORE INFORMATION" heading */
+.footer-wrapper h6 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* Style the "why-us" list */
+.why-us {
+    list-style: none;
+    padding: 0;
+}
+
+.why-us li {
+    margin-bottom: 10px;
+}
+
+/* Style the footer contact information */
+.footer-contact {
+    margin-bottom: 20%;
+}
+
+/* Style the legal information list */
+.list-group {
+    list-style: none;
+    padding: 0;
+}
+
+.list-group li {
+    margin-bottom: 10px;
+}
+
+/* Style social links */
+.social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Add specific background colors for each social link */
+.facebook {
+    background-color: #4267B2;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.twitter {
+    background-color: #00acee;
+}
+
+/* Style the signature text */
+.signature {
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+ 
